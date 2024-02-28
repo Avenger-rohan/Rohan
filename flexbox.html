@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+.container{
+    border: 2px solid tomato;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around; */
+    /* align-items: center; */
+   
+  
+
+   
+
+}
+.item{
+    background-color: rgb(55, 152, 113);
+    border: 2px salmon;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+#item1{
+    order: 2;
+    flex-grow: 3;
+
+}
+#item2{
+    order: 3;
+    
+
+}
+#item3{
+    order: 1;
+
+}
+    </style>
+</head>
+<body>
+    <h1>Flex box</h1>
+    <div class="container">
+    <div class="item" id="item1">first Box</div>
+    <div class="item" id="item2">second box</div>
+    <div class="item" id="item3">third box</div>
+    <div class="item" id="item4">fourth box</div>
+    <div class="item" id="item5">fifth box</div>
+    <div class="item" id="item6">sixth box</div> 
+    
+</body>
+</html>
